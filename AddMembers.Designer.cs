@@ -223,7 +223,7 @@
             this.backButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.backButton.Font = new System.Drawing.Font("Poppins SemiBold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.backButton.ForeColor = System.Drawing.Color.White;
-            this.backButton.Location = new System.Drawing.Point(922, 664);
+            this.backButton.Location = new System.Drawing.Point(917, 664);
             this.backButton.Name = "backButton";
             this.backButton.Size = new System.Drawing.Size(137, 56);
             this.backButton.TabIndex = 5;
