@@ -72,6 +72,12 @@
     <Compile Include="UpdateDelete.Designer.cs">
       <DependentUpon>UpdateDelete.cs</DependentUpon>
     </Compile>
+    <Compile Include="View Member.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View Member.Designer.cs">
+      <DependentUpon>View Member.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AddMembers.resx">
       <DependentUpon>AddMembers.cs</DependentUpon>
     </EmbeddedResource>
@@ -92,6 +98,9 @@
     </Compile>
     <EmbeddedResource Include="UpdateDelete.resx">
       <DependentUpon>UpdateDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View Member.resx">
+      <DependentUpon>View Member.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

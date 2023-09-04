@@ -16,7 +16,7 @@ namespace Gym_Management_System_with_MyCodeSpace
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm());
+            Application.Run(new AddMembers());
         }
     }
 }
