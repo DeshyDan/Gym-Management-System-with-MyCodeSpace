@@ -67,6 +67,14 @@
     <Compile Include="AddMembers.Designer.cs">
       <DependentUpon>AddMembers.cs</DependentUpon>
     </Compile>
+    <Compile Include="GymDBDataSet.cs">
+      <DependentUpon>GymDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GymDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GymDBDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,6 +134,17 @@
     <EmbeddedResource Include="View Member.resx">
       <DependentUpon>View Member.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="GymDBDataSet.xsc">
+      <DependentUpon>GymDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="GymDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GymDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GymDBDataSet.xss">
+      <DependentUpon>GymDBDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
